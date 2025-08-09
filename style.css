@@ -1,0 +1,102 @@
+/* Estilos generales del cuerpo y fuente */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f0f2f5; /* Un gris claro, suave */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezado (Header) */
+header {
+    background-color: #11f570; /* Un verde amigable */
+    color: rgb(54, 19, 252);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* Estilos de las secciones (artículos individuales) */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los artículos (Article) */
+article h2 {
+    color: #11e92d; /* Un verde más oscuro para los títulos */
+    border-bottom: 2px solid #b2dfdb;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+article p {
+    color: #555;
+}
+
+/* Estilos de las imágenes */
+article img {
+    max-width: 100%; /* Las imágenes se ajustan al ancho de su contenedor */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 3px solid #eee;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del pie de página (Footer) */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Un gris oscuro */
+    color: white;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #a5d6a7; /* Verde claro para los enlaces */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries para diseño responsive en pantallas pequeñas */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+/* Estilos adicionales para el texto o clases */
+.texto1 { /* el nombre es la clase que se le agrego a los parrafos en el html*/
+    font-size: 1.2em;
+    color: #0a9aee;
+    margin: 10px 0;
+}
+
+/* Estilo para el subtítulo */
+#subtitulo {
+    font-size: 1.5em;
+    color: #e71050; /* Un azul claro */
+    margin-top: 10px;
+    font-weight: normal;
+}
+
